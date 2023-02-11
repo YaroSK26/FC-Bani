@@ -1,0 +1,223 @@
+
+
+
+
+
+@media only screen and (min-width:1730px) {
+    .nav-bar {
+        height: 75px;
+    }
+
+    .nav-bar ul li a {
+        font-size: 30px;
+    }
+
+     .imgFCBani{
+        top: -1.25%;
+     }
+
+    .sponzor {
+        margin-top: 150px;
+    }
+
+    .green {
+        position: relative;
+        top: 200px;
+    }
+
+    .nav-bar2 a {
+        font-size: 25px;
+    }
+
+    .sponzor p {
+        font-size: 25px;
+    }
+
+    .nadpis {
+        font-size: 35px;
+    }
+
+    .imgFCBani {
+        width: 4%;
+    }
+
+}
+
+
+@media only screen and (max-width:1500px) {
+.zostavaPozadiePLS {
+        
+        height: 1400px;
+
+    }
+}
+
+@media only screen and (max-width:1495.5px) {
+   
+}
+
+@media only screen and (max-width:1496px) {
+    .zostavaPozadiePLS {
+
+        height: 1700px;
+
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1376px) {
+    .DresFlex{
+        position: relative;
+        top: -220px;
+    }
+
+    .shop-div{
+        margin-top: 30%;
+        height:700px;
+    }
+
+    .flex-shop{
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+  .zostavaPozadiePLS{
+    height: 1800px;
+  }
+}
+
+
+@media only screen and (max-width:1100px) {
+  .imgFCBani{
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+    .zostavaPozadiePLS {
+        height:2950px;
+    }
+}
+@media only screen and (max-width:816px) {
+    .BeniFlex {
+        position: relative;
+        top: -220px;
+    }
+
+        .DresFlex {
+            position: relative;
+            top: -440px;
+        }
+
+        .shop-div{
+            height: 1100px;
+        }
+
+}
+
+
+@media only screen and (max-width:750px) {
+    .Martincoko{text-align: center;}
+    
+}
+
+@media only screen and (max-width:530px) {
+
+    .zostavaPozadiePLS{
+        height: 3000px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:680px) {
+    .pt {
+        left: 20vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .VAJO {
+        font-size: 75px;
+    }
+    .green{
+        width: 150PX;
+    }
+
+    .zostavaPozadiePLS{
+        height: 3050px;
+    }
+}
+
+@media only screen and (max-width:470px) {
+  .pozadieBani{
+     width: 50%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+    .VAJO {
+            font-size: 50px;
+        }
+        .green{
+            top: 115px;
+        }
+}
+
+
+@media only screen and (max-width:410px) {
+.nav-bar2 a {
+   font-size: 14px;
+}
+
+.nav-bar2 p {
+    font-size: 14px;
+}
+
+.pt {
+    left: 48vw;
+    top: 230px;
+    position: relative;
+}
+
+.zostavaPozadiePLS{
+    height: 3200px;
+}
+
+.footer-text{
+    font-size: 20px;
+}
+
+
+
+}
+
+@media only screen and (max-width:350px) {
+
+
+    .green {
+        left: -20px;
+    }
+    .imgFCBani{width: 60px;  top: 0px;}
+
+    .c1-text {
+       width: 330px;
+    }
+
+    .zostavaPozadiePLS{height: 3200px;}
+}
+
+
+@keyframes lietanie {
+    0% {
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translate(-15px);
+    }
+}

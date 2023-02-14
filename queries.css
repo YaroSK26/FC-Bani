@@ -1,4 +1,41 @@
+@media only screen and (min-width:2495px) {
 
+    .SHOP{
+       top: -350PX; 
+    }
+    .flex-shop{
+        position: relative;
+        top: -300px;
+    }
+    .footer-text {
+        margin: 0;
+    }
+    .shop-div {
+        position: relative;
+        margin: 0;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:1850px) {
+
+    .zostavaPozadiePLS {
+        margin-bottom: -100px;
+    }
+}
+
+@media only screen and (min-width:1580px) {
+
+   .zostavaPozadiePLS {
+    height: 1400px;
+   }
+}
+
+@media only screen and (min-width:1500px) {
+
+    .shop-div {
+        margin-top: 20%;
+    }
+}
 
 
 
@@ -43,6 +80,14 @@
 
 }
 
+@media only screen and (max-width:1580px) {
+    
+    .shop-div{
+        margin-top: 40%;
+    }
+}
+
+
 
 @media only screen and (max-width:1500px) {
 .zostavaPozadiePLS {
@@ -52,17 +97,15 @@
     }
 }
 
-@media only screen and (max-width:1495.5px) {
-   
-}
 
 @media only screen and (max-width:1496px) {
     .zostavaPozadiePLS {
 
-        height: 1700px;
+        height: 1500px;
 
     }
 }
+
 
 
 
@@ -75,7 +118,7 @@
     }
 
     .shop-div{
-        margin-top: 30%;
+        margin-top: 50%;
         height:700px;
     }
 
@@ -86,7 +129,7 @@
 
 @media only screen and (max-width:1200px) {
   .zostavaPozadiePLS{
-    height: 1800px;
+    height: 1600px;
   }
 }
 
@@ -96,10 +139,15 @@
     margin-top: 10px;
   }
 }
+@media only screen and (max-width:1016px) {
+    .zostavaPozadiePLS {
+        height: 1650px;
+    }
+}
 
 @media only screen and (max-width:1000px) {
     .zostavaPozadiePLS {
-        height:2950px;
+        height:2750px;
     }
 }
 @media only screen and (max-width:816px) {
@@ -122,15 +170,19 @@
 
 @media only screen and (max-width:750px) {
     .Martincoko{text-align: center;}
+    .zostavaPozadiePLS{
+        height: 2850px;
+    }
     
 }
 
 @media only screen and (max-width:530px) {
 
     .zostavaPozadiePLS{
-        height: 3000px;
+        height: 2900px;
     }
 }
+
 
 
 
@@ -150,7 +202,7 @@
     }
 
     .zostavaPozadiePLS{
-        height: 3050px;
+        height: 2950px;
     }
 }
 
@@ -167,6 +219,10 @@
         .green{
             top: 115px;
         }
+
+    .zostavaPozadiePLS {
+        height: 3000px;
+    }
 }
 
 
@@ -186,7 +242,7 @@
 }
 
 .zostavaPozadiePLS{
-    height: 3200px;
+    height: 3100px;
 }
 
 .footer-text{

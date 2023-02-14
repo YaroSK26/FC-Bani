@@ -6,14 +6,10 @@ html , body {
     box-sizing: border-box;
     scroll-behavior: smooth;
     cursor: default;
-    
+   
            
             
 }
-
-
-
-
 
 /*nav*/
 nav{
@@ -137,7 +133,7 @@ cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  wi
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 100px;
+    margin-top: 30px;
 
 
 
@@ -284,7 +280,7 @@ d
 }
 
 .zostavaPozadiePLS{
-    height: 1200px;
+    height: 1000px;
 
 }
 
@@ -450,10 +446,11 @@ d
 
 .shop-div {
     margin-top: 30%;
+
 }
 
 
-.SHOP{color: black;margin-bottom: 50px;}
+.SHOP{color: black;margin-bottom: 50px; margin-top: 30px;}
 
 
 .flex-shop{
@@ -504,9 +501,9 @@ margin-top: 10px;
 
 
 .footer-text {
-    margin: 10px 0;
+    
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     background: linear-gradient(90deg, rgba(5, 15, 3, 1) 0%, rgba(12, 106, 60, 1) 49%, rgba(3, 15, 12, 1) 100%);
    margin-bottom: 0px;
    color: white;
@@ -568,6 +565,12 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 1) 29%, rgba(255, 255, 255, 1)
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>⚽</text></svg>") 16 0,
             auto;
 }
+
+.empty3 {
+    height: 20px;
+    color: white;
+}
+
 
 
 

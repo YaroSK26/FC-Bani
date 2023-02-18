@@ -190,6 +190,7 @@
 @media only screen and (max-width:680px) {
     .pt {
         left: 20vw;
+        z-index: 1;
     }
 }
 
@@ -275,5 +276,23 @@
     }
     100%{
         transform: translate(-15px);
+    }
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+transform: rotate(-90deg);
+    }
+    50%{
+transform: rotate(-180deg);
+    }
+    75%{
+transform: rotate(-270deg);
+    }
+    100% {
+transform: rotate(-360deg);
     }
 }

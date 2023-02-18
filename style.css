@@ -4,11 +4,7 @@ html , body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    cursor: default;
-   
-           
-            
+    scroll-behavior: smooth;    
 }
 
 /*nav*/
@@ -17,7 +13,6 @@ nav{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .nav-bar {
@@ -30,10 +25,6 @@ nav{
     top: 0%;
     width: 100vw;
     border-bottom: 3px solid black ;
-    
-    
-    
-
 }
 
 .nav-bar2{
@@ -88,7 +79,7 @@ cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  wi
     top: -0.75%;
     position: fixed;
     display: flex;
-    flex-direction: column;
+    
     justify-content: flex-start;
     align-items: center;
 }
@@ -115,11 +106,11 @@ cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  wi
     filter: hue-rotate(180deg);
     position: relative;
     top: 150px;
-    left: -1%;
+    left: 3%;
     border-radius: 50%;
     transform: rotate(90deg);
     display: flex;
-
+    animation: rotate 5s alternate infinite linear;
 
 }
 
@@ -263,7 +254,8 @@ d
     margin: 0 auto;
     
 }
-.Martincoko{
+
+.Martincoko{ 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
@@ -472,13 +464,14 @@ d
     height: 200px;
     position: relative;
     border-radius: 5%;
-    
+   
 }
 .oliver {
     width: 250px;
     height: 200px;
     position: relative;
     border-radius: 5%;
+    
 }
 
 .dres{
@@ -486,9 +479,9 @@ d
         height: 200px;
        position: relative;
        border-radius: 5%;
+   
     
 }
-
 .euro {
 position: relative;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -31,7 +31,7 @@
     <script src="script.js"></script>
 
     <link rel="icon" href="images/fcbani.png">
-    <title>FC Bäni</title>
+    <title> Futbalový klub - FC Bäni</title>
 
         
 </head>
@@ -126,7 +126,7 @@
  🗣️ <br>
  <strong> Hymna </strong><br>
 
-Vajoooooooooooooo vaaajoooooooooo vaaaaaajooo vajooo vajooo vajooooo vajo vajo vaaajooo vajo vajooooo
+Vajoooooooooooooo vaaajoooooooooo vaaaaaajooo vajooo vajooo vajooooo vajo vajo vaaajooo vajo vajooooo.
 Zopakovať 5x. <br><br>
 
 🏟️ <br>
@@ -168,12 +168,12 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
 
     <div class="c1">
       <img  class="maly" src="images/maly.png" alt="obrázok Malého">
-      <p class="makas c1-text"><strong>Makaš Lulý -</strong> je oficiálnym trenérom mužstva FC Bäni. S týmto mužstvo  trénuje 2 krát do týždna (na hodine telesnej výchovy
-        ). Makaš Lulý vie priniesť tomuto tímu množstvo skusenosti z celého sveta lebo v minulosti sa venoval cestovaniu.</p>
+      <p class="makas c1-text"><strong>Makaš Lulý -</strong> je oficiálnym trenérom mužstva FC Bäni. S týmto mužstvom  trénuje 2 krát do týždna (na hodine telesnej výchovy
+        ). Makaš Lulý vie priniesť tomuto tímu množstvo skúsenosti z celého sveta lebo v minulosti sa venoval cestovaniu.</p>
   </div>
 <div class="c1">
         <img class="brano" src="images/brano.jpg" alt="obrázok Braňa">
-        <p class="branoText c1-text"><strong>Martinčoko -</strong> je oficialný majiteľ klubu FC Bäni a majiteľ psa Beni taktiež aj vnuk prezidenta klubu. Tento hráč je maďarského pôvodu a 
+        <p class="branoText c1-text"><strong>Martinčoko -</strong> je oficiálny majiteľ klubu FC Bäni a majiteľ psa Beni a  taktiež aj vnuk prezidenta klubu. Tento hráč je maďarského pôvodu a 
          do klubu prišiel dobrovoľne. Nevie hrať futbal.</p>
 </div>
 <div class="c1">
@@ -186,7 +186,7 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
 </div>
 <div class="c1">
          <img  class="peter" src="images/peter.jpg" alt="obrázok Petra">
-         <p class="peterText c1-text"><strong>Kladivo -</strong> tento hráč chodí na poštovú školu a nemá rád Repovskú. Prepáčte prišla poštárka.</p>
+         <p class="peterText c1-text"><strong>Kladivo -</strong> tento hráč chodí na Poštovú školu a nemá rád Repovskú. Prepáčte prišla poštárka.</p>
 </div>
 <div class="c1">
          <img class="jano" src="images/jano.jpg" alt="obrázok Jana">
@@ -198,14 +198,15 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
 </div>
 <div class="c1">
           <img  class="lilD"src="images/lilD.jpg" alt="obrazok Lil D-eho">
-          <p class="lilDText c1-text"><strong>Lil D</strong> prišiel do FC Bäni z FC Krásna (fuj) a taktiež sa živí rapom. Ruky na volante.</p>
+          <p class="lilDText c1-text"><strong>Lil D - </strong> prišiel do FC Bäni z FC Krásna (fuj) a taktiež sa živí rapom. Ruky na volante.</p>
 </div>
 <div class="c1">
           <img class="jaro" src="images/jaro.png" alt="obrázok jara">
-          <p  id="scroll-shop"  class="jaroText c1-text"> <strong>Jaro</strong> je frajer. Najlepší futbalista z klubu FC Bäni. Gulaš, Karbonátok. <p>
+          <p  id="scroll-shop"  class="jaroText c1-text"> <strong>Jaro - </strong> je frajer. Najlepší futbalista z klubu FC Bäni. Gulaš, Karbonátok. <p>
 </div>
    </div>
 </div>
+
 
   
   
@@ -220,25 +221,55 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
       <div class="shopFlex">
         <a href="images/oliver.jpg"><img class="oliver"src="images/oliver.jpg" alt="obrázok oliverovho bicykla"></a>
         <p class="euro a">Oliverov Bicykel <span  style="color:red;">  2 € </span></p>
-        <button class="button b1"><a target="_blank" href="images/vtip1.jpg">Kúpiť</a></button>
+        <a  class="buttonA" target="_blank" href="images/vtip1.jpg"><button class="button b1">Kúpiť</button></a>
       </div>
       <div   class="shopFlex BeniFlex">
         
         <a href="images/BENI.jpg"><img  class ="beni" src="images/BENI.jpg" alt="obrázok braňového psa"></a>
         <p class="euro b supercena"> Beni  <span  style="color:red;"> 0.05 € </span></p>
-        <button class="button b2"><a target="_blank"
-            href="https://regiony.zoznam.sk/patranie-po-osobe/310944/martinko-stanislav/">Kúpiť</a></button>
+        <a  class="buttonA"target="_blank" href="https://regiony.zoznam.sk/patranie-po-osobe/310944/martinko-stanislav/"><button class="button b2">Kúpiť</button></a>
         </div>
 
      <div  class="shopFlex  DresFlex">
        <a href="images/dres.jpg"> <img  class ="dres" src="images/dres.jpg" alt="obrázok dresu FC Bäni"></a>
         <p  class="euro c"> Dres <span  style="color:red"> 7 € </span></p> 
-        <button class="button b3"><a target="_blank" href="images/merciak.webp">Kúpiť</a></button>
+      <a class="buttonA" target="_blank" href="images/merciak.webp"><button  type="button" class="button b3">Kúpiť</button></a>
+      
     </div>
 
   </div>
 
   </div>
+
+
+<div class="box-div">
+
+   <form  class="box" action="mailer.php" method="post">
+
+   
+    <h1>Formulár</h1>
+    <input type="text"  name="name"placeholder="Meno ">
+    <input type="email" name="email" placeholder="Email">
+    <textarea name="message"  cols="30" rows="10" placeholder="Napiš text"></textarea>
+    <input type="submit" value="Odoslať">
+
+    <?php
+           
+            if($_POST['success'] == 1){
+                echo "<div class=\"form-result success\">Odoslanie prebehlo.</div>";
+            };
+            
+            if($_POST['success'] == -1){
+                echo "<div class=\"form-result error\">Chyba pri odoslaní.</div>";
+            };
+      ?>
+
+
+    
+   </form>
+  </div>
+   
+
 
 
 
@@ -256,7 +287,6 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
   </footer>
 
 
- 
 
 </body>
 </html>

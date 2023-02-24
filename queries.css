@@ -125,6 +125,10 @@
     .flex-shop{
         height: 700px;
     }
+
+    .box{
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -250,7 +254,18 @@
     font-size: 20px;
 }
 
+.box{width: 250px;
+    
+}
+.box input {
+    margin: 0px auto;
+}
 
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+textarea:focus {
+    width: 150px;
+}
 
 }
 

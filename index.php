@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta id="contentLanguage" http-equiv="Content-Language" content="sk-SK">
     <meta name="robots" content="index, follow" />
+    <meta http-equiv="Cache-Control" content="no-store">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="stránka pre imaginárny  futbalový klub FC Bäni">
@@ -58,11 +59,17 @@
 
 
     <p class="VAJO">„Vajoo“</p>
+  <div class= "FC-Kosice+h">
+        <h1 class= "nadpis sprava">Najnovšia správa</h1>
+    <div class= "FC-Kosice">
+      
+      <img  class="sagnaIMG" src="images/sagna.jpg" alt="">
+      <p class="sagna ">Členovia futbalového klubu FC Bäni mali nedávno vzrušujúcu príležitosť zúčastniť sa futbalového zápasu FC Košice. Nielenže si hru užili, ale mali aj možnosť stretnúť sa a odfotiť sa s L. Sagnom,  profesionálnym futbalistom z tímu FC Košice. Hráči boli nadšení zo stretnutia s takouto známou a rešpektovanou osobnosťou vo svete futbalu a fotografia, ktorú urobili, bude nepochybne vzácna aj v nasledujúcich rokoch. Pre členov FC Bäni to bol nezabudnuteľný zážitok a na tento deň sa budú nepochybne obzerať s peknými spomienkami.
 
-<div class="empty3"></div>
-<div class="empty3"></div>
-<div class="empty3"></div>
-<div class="empty3"></div>
+      </p>
+    </div>
+  </div>
+
 <div class="empty3"></div>
 
 
@@ -244,28 +251,36 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
 
 <div class="box-div">
 
-   <form  class="box" action="mailer.php" method="post">
+   <form   action="mailer.php" method="post" class="box">
 
-   
-    <h1>Formulár</h1>
-    <input type="text"  name="name"placeholder="Meno ">
-    <input type="email" name="email" placeholder="Email">
-    <textarea name="message"  cols="30" rows="10" placeholder="Napiš text"></textarea>
-    <input type="submit" value="Odoslať">
 
-    <?php
-           
-            if($_POST['success'] == 1){
+     <?php
+
+           if(isset($_GET['success']) and $_GET['success'] == 1)
+
+            if($_GET['success'] == 1){
                 echo "<div class=\"form-result success\">Odoslanie prebehlo.</div>";
             };
             
-            if($_POST['success'] == -1){
+
+            if(isset($_GET['success']) and $_GET['success'] == 1)
+
+            if($_GET['success'] == -1){
                 echo "<div class=\"form-result error\">Chyba pri odoslaní.</div>";
             };
       ?>
 
 
-    
+
+   
+    <h1>Formulár</h1>
+    <input type="text"  name="name"placeholder="Meno ">
+    <input type="email" name="email" placeholder="Email">
+    <textarea name="message"  cols="30" rows="10" placeholder="Text"></textarea>
+    <input type="submit" value="Odoslať">
+
+      
+      
    </form>
   </div>
    

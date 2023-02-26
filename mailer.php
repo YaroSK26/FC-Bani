@@ -8,7 +8,7 @@
 
     // Kontroluje data popř. přesměruje na chybovou adresu
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: https://fcbani.eu/index.html?success=-1#form");
+        header("Location: https://fcbani.eu/index.php?success=-1#form");
         exit;
     }
 
@@ -19,17 +19,17 @@
     $subject = "Nový formulár od: $name";
 
     // Obsah emailu, který se vám odešle
-    $email_content = "Jméno: $name\n";
+    $email_content = "Méno: $name\n";
     $email_content .= "Email: $email\n\n";
-    $email_content .= "Zpráva:\n$message\n";
+    $email_content .= "Správa:\n$message\n";
 
     // Emailová hlavička
-    $email_headers = "From: $name <$email>";
+    $email_headers = "Od: $name <$email>";
 
     // Odeslání emailu - dáme vše dohromady
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Přesměrování na stránku, pokud vše proběhlo v pořádku
-    header("Location:https://fcbani.eu/index.html?success=1#form");
+    header("Location:https://fcbani.eu/index.php?success=1#form");
 
 ?>

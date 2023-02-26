@@ -154,6 +154,17 @@
         height:2750px;
     }
 }
+
+@media only screen and (max-width:850px) {
+    .sagna {
+        font-size: 15px;
+    }
+    .sagnaIMG{
+        width: 200px;
+        
+    }
+}
+
 @media only screen and (max-width:816px) {
     .BeniFlex {
         position: relative;
@@ -178,6 +189,13 @@
         height: 2850px;
     }
     
+}
+@media only screen and (max-width:750px) {
+.FC-Kosice {
+    flex-direction: column;
+    
+}
+
 }
 
 @media only screen and (max-width:530px) {
@@ -214,6 +232,10 @@
 @media only screen and (max-width:470px) {
   .pozadieBani{
      width: 50%;
+  }
+  .sagna {
+    
+    width: 250px;
   }
 }
 

@@ -160,7 +160,7 @@
         font-size: 15px;
     }
     .sagnaIMG{
-        width: 200px;
+        width: 250px;
         
     }
 }
@@ -195,6 +195,7 @@
     flex-direction: column;
     
 }
+.sagnaIMG {margin-left: 0; margin-bottom: 10px;}
 
 }
 

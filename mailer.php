@@ -13,13 +13,13 @@
     }
 
     // Nastavte si email, nakterý chcete, aby se vyplněný formulář odeslal - jakýkoli váš email
-    $recipient = "branislavmartincko@fcbani.eu";
+    $recipient = "branislavmartincko@gmail.com";
 
     // Nastavte předmět odeslaného emailu
     $subject = "Nový formulár od: $name";
 
     // Obsah emailu, který se vám odešle
-    $email_content = "Méno: $name\n";
+    $email_content = "Meno: $name\n";
     $email_content .= "Email: $email\n\n";
     $email_content .= "Správa:\n$message\n";
 

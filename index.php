@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ 
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YE9MVPQVYR"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -13,26 +15,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta id="contentLanguage" http-equiv="Content-Language" content="sk-SK">
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="Cache-Control" content="no-store">
+    <meta name="robots" content="index, follow" >
+  
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="stránka pre imaginárny  futbalový klub FC Bäni">
     <meta name="keywords" content="futbal,historia,shop,zostava">
-    <meta name="description" content="website for the imaginary football club FC Bäni">
-    <meta name="keywords" content="football, history of FC Bäni, team, shop">
 
     <meta name="author" content="JaXo">
 
     
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="queries1.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
     <link rel="icon" href="images/fcbani.png">
     <title> Futbalový klub - FC Bäni</title>
+   
 
         
 </head>
@@ -108,7 +110,7 @@
     <p> <strong> Branislav Martinček </strong>, v Košiciach známy ako Cifo, sa v roku 2021 presťahoval do mesta Košice z obchodných dôvodov.
     Mesiac po zverejnení oznámenia už predsedal prvému oficiálnemu tímovému mítingu v triede 9.B. Spolu s Janíkom Šunkou a
     Baroslavom Jarabašom sa historického zhromaždenia zúčastnili aj Peter German, Oliver džura, Hemilton Kollár, David
-    Deško, Jakup Pasta. Branislav Martinček sa po zhromaždení stal prvým prezidentom klubu.
+    Deško, Jakup Pasta. Branislav Martinček sa po zhromaždení stal prvým majiteľom klubu.
     </p><br>
 
     🟢<br>
@@ -259,11 +261,12 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
            if(isset($_GET['success']) and $_GET['success'] == 1)
 
             if($_GET['success'] == 1){
-                echo "<div class=\"form-result success\">Odoslanie prebehlo.</div>";
+                echo "<div class=\"form-result success\">Odoslanie bolo úspešné.</div>";
+                
             };
             
 
-            if(isset($_GET['success']) and $_GET['success'] == 1)
+            if(isset($_GET['success']) and $_GET['success'] == -1)
 
             if($_GET['success'] == -1){
                 echo "<div class=\"form-result error\">Chyba pri odoslaní.</div>";

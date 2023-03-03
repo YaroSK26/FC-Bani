@@ -537,8 +537,14 @@ margin-top: 10px;
 background: linear-gradient(180deg, rgba(0, 0, 0, 1) 29%, rgba(255, 255, 255, 1) 79%);
 }
 
-
-
+.empty4 {
+    height: 60px;
+    color: rgb(0, 0, 0);
+}
+.empty5 {
+    height: 70px;
+    color: rgb(0, 0, 0);
+}
 
 
 
@@ -568,7 +574,6 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 1) 29%, rgba(255, 255, 255, 1)
     height: 20px;
     color: white;
 }
-
 
 /*formular*/
 

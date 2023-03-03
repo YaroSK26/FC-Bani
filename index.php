@@ -26,7 +26,7 @@
     <meta name="author" content="JaXo">
 
     
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="queries1.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -261,22 +261,26 @@ Vytvorené v aplikácii na vytváranie log. Znázorňuje farby dresov a šport -
            if(isset($_GET['success']) and $_GET['success'] == 1)
 
             if($_GET['success'] == 1){
+                echo "<div id=\"scroll\" class=\"empty4\"></div>";
                 echo "<div class=\"form-result success\">Odoslanie bolo úspešné.</div>";
-                
+                 
+               
             };
-            
+
 
             if(isset($_GET['success']) and $_GET['success'] == -1)
 
             if($_GET['success'] == -1){
+                echo "<div id=\"scroll\" class=\"empty5\"></div>";
                 echo "<div class=\"form-result error\">Chyba pri odoslaní.</div>";
+                
             };
       ?>
 
 
 
    
-    <h1>Formulár</h1>
+    <h1 >Formulár</h1>
     <input type="text"  name="name"placeholder="Meno ">
     <input type="email" name="email" placeholder="Email">
     <textarea name="message"  cols="30" rows="10" placeholder="Text"></textarea>
